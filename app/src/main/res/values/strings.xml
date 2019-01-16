@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CPLHM2</string>
+    <string name="auto_event">Auto Event</string>
+    <string name="tap_event">Tap Event</string>
 </resources>

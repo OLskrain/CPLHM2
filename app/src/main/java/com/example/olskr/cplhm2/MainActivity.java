@@ -24,5 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
+        RxTextView.textChanges(editText).subscribe(it -> {
+            textView.setText(editText.getText());
+        });
     }
 }

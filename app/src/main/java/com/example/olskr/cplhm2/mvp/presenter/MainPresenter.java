@@ -14,11 +14,6 @@ public class MainPresenter extends MvpPresenter<MainView> {
         this.model = new Model();
     }
 
-    public int calculateButtonValue(int index){
-        model.setAt(index, model.getAt(index) + 1);
-        return model.getAt(index);
-    }
-
     public void textChanged(String text) {
         getViewState().setTextViewText(text);
     }

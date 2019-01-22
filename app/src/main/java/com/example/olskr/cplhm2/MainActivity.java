@@ -10,6 +10,7 @@ import com.jakewharton.rxbinding3.widget.RxTextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+//дз 1-ое задание 1 вариант
 public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.edit_text1)

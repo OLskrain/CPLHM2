@@ -1,10 +1,11 @@
-package com.example.olskr.cplhm2;
+package com.example.olskr.cplhm2.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.olskr.cplhm2.R;
 import com.jakewharton.rxbinding3.widget.RxTextView;
 
 import butterknife.BindView;
